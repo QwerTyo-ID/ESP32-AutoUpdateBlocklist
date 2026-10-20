@@ -1,8 +1,5 @@
 name: blocklist
 
-# Rebuilds the default blocklist weekly and publishes it at a stable URL:
-#   https://github.com/M-Abozaid/esp32-c3-adblock/releases/download/blocklist/blocklist.bin
-# Point a device's "Remote auto-update" at that URL and it stays current on its own.
 on:
   schedule:
     - cron: "0 4 * * *"   # 04:00 UTC
