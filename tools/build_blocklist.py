@@ -31,7 +31,7 @@ U64 = (1 << 64) - 1
 # Want more? swap light-onlydomains.txt -> pro-onlydomains.txt is 370k and ONLY fits the
 # single-app (no-OTA) partition table.
 DEFAULT_SOURCES = [
-    'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.mini-onlydomains.txt',
+    'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt',
     'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.mini-onlydomains.txt',
     'https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/domain.txt',
 ]
