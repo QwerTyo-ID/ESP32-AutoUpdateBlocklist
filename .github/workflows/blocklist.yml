@@ -35,7 +35,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           entries=$(( $(stat -c%s blocklist.bin) / 5 ))
-          notes="Auto-built $(date -u +%F) — ${entries} entries (default sources: Hagezi pro.mini + tif.mini, ABPindo).
+          notes="Auto-built $(date -u +%F) — ${entries} entries (default sources: Hagezi pro + tif.mini, ABPindo).
 
           Set this as the device's Remote auto-update URL:
           https://github.com/${{ github.repository }}/releases/download/blocklist/blocklist.bin"
